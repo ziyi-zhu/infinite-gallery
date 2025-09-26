@@ -597,6 +597,14 @@ h3 {
 
 /* Mobile responsive styles */
 @media (max-width: 768px) {
+  /* Disable page scrolling on mobile */
+  html,
+  body {
+    overflow: hidden;
+    touch-action: none;
+    -webkit-overflow-scrolling: none;
+  }
+
   /* Hide desktop-specific elements on mobile */
   .links-section {
     display: none;
