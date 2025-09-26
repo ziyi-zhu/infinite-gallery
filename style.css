@@ -597,12 +597,14 @@ h3 {
 
 /* Mobile responsive styles */
 @media (max-width: 768px) {
-  /* Disable page scrolling on mobile */
+  /* Disable page scrolling on mobile and fix viewport height */
   html,
   body {
     overflow: hidden;
     touch-action: none;
     -webkit-overflow-scrolling: none;
+    height: 100dvh; /* Use dynamic viewport height for better mobile support */
+    max-height: 100dvh;
   }
 
   /* Hide desktop-specific elements on mobile */
