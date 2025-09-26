@@ -414,7 +414,7 @@ const settings = {
   largeHeight: 500,
   itemGap: 65,
   hoverScale: 1.05,
-  expandedScale: 0.4, // Percentage of viewport width
+  expandedScale: 0.9, // Percentage of viewport width
   dragEase: 0.075,
   momentumFactor: 200,
   bufferZone: 3,
@@ -859,10 +859,32 @@ function expandItem(item, itemIndex) {
     }
   });
   const viewportWidth = window.innerWidth;
-  const targetWidth = viewportWidth * settings.expandedScale;
-  // Maintain aspect ratio from original item
-  const aspectRatio = itemHeight / itemWidth;
-  const targetHeight = targetWidth * aspectRatio;
+  const viewportHeight = window.innerHeight;
+  
+  // Get the actual image to calculate its natural aspect ratio
+  const actualImg = item.querySelector("img");
+  let targetWidth, targetHeight;
+  
+  // Calculate size based on image's natural aspect ratio
+  if (actualImg.complete && actualImg.naturalWidth > 0) {
+    const imageAspectRatio = actualImg.naturalHeight / actualImg.naturalWidth;
+    const maxWidth = viewportWidth * settings.expandedScale;
+    const maxHeight = viewportHeight * settings.expandedScale;
+    
+    // Fit image within viewport while maintaining aspect ratio
+    if (maxWidth * imageAspectRatio <= maxHeight) {
+      targetWidth = maxWidth;
+      targetHeight = maxWidth * imageAspectRatio;
+    } else {
+      targetHeight = maxHeight;
+      targetWidth = maxHeight / imageAspectRatio;
+    }
+  } else {
+    // Fallback to item aspect ratio if image not loaded
+    const aspectRatio = itemHeight / itemWidth;
+    targetWidth = viewportWidth * settings.expandedScale;
+    targetHeight = targetWidth * aspectRatio;
+  }
   gsap.delayedCall(0.5, animateTitleIn);
   gsap.fromTo(
     expandedItem,
@@ -1096,12 +1118,34 @@ window.addEventListener("touchend", () => {
 window.addEventListener("resize", () => {
   if (isExpanded && expandedItem) {
     const viewportWidth = window.innerWidth;
-    const targetWidth = viewportWidth * settings.expandedScale;
-    // Maintain aspect ratio
-    const originalWidth = originalPosition.width;
-    const originalHeight = originalPosition.height;
-    const aspectRatio = originalHeight / originalWidth;
-    const targetHeight = targetWidth * aspectRatio;
+    const viewportHeight = window.innerHeight;
+    
+    // Get the expanded image to use its natural aspect ratio
+    const expandedImg = expandedItem.querySelector("img");
+    let targetWidth, targetHeight;
+    
+    if (expandedImg && expandedImg.complete && expandedImg.naturalWidth > 0) {
+      const imageAspectRatio = expandedImg.naturalHeight / expandedImg.naturalWidth;
+      const maxWidth = viewportWidth * settings.expandedScale;
+      const maxHeight = viewportHeight * settings.expandedScale;
+      
+      // Fit image within viewport while maintaining original aspect ratio
+      if (maxWidth * imageAspectRatio <= maxHeight) {
+        targetWidth = maxWidth;
+        targetHeight = maxWidth * imageAspectRatio;
+      } else {
+        targetHeight = maxHeight;
+        targetWidth = maxHeight / imageAspectRatio;
+      }
+    } else {
+      // Fallback to original calculation
+      const originalWidth = originalPosition.width;
+      const originalHeight = originalPosition.height;
+      const aspectRatio = originalHeight / originalWidth;
+      targetWidth = viewportWidth * settings.expandedScale;
+      targetHeight = targetWidth * aspectRatio;
+    }
+    
     gsap.to(expandedItem, {
       width: targetWidth,
       height: targetHeight,
