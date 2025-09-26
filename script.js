@@ -8,360 +8,360 @@ CustomEase.create("hop", "0.9, 0, 0.1, 1");
 const artworks = [
   {
     id: 1,
-    title: 'Self Portrait 01',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_1.jpg',
+    title: "Self Portrait 01",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_1.jpg",
   },
   {
     id: 2,
-    title: 'Self Portrait 02',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_2.jpg',
+    title: "Self Portrait 02",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_2.jpg",
   },
   {
     id: 3,
-    title: 'Self Portrait 03',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_3.jpg',
+    title: "Self Portrait 03",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_3.jpg",
   },
   {
     id: 4,
-    title: 'Untitled',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_4.jpg',
+    title: "Untitled",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_4.jpg",
   },
   {
     id: 5,
-    title: 'Urban Series 01',
-    description: 'Urban photography, 2016',
-    category: 'photography',
-    imagePath: 'images/photography_1.jpg',
+    title: "Urban Series 01",
+    description: "Urban photography, 2016",
+    category: "photography",
+    imagePath: "images/photography_1.jpg",
   },
   {
     id: 6,
-    title: 'Alpine Sceneries 01',
-    description: 'Landscape photography, 2018',
-    category: 'photography',
-    imagePath: 'images/photography_2.jpg',
+    title: "Alpine Sceneries 01",
+    description: "Landscape photography, 2018",
+    category: "photography",
+    imagePath: "images/photography_2.jpg",
   },
   {
     id: 7,
-    title: 'European Snapshots 01',
-    description: 'Landscape photography, 2019',
-    category: 'photography',
-    imagePath: 'images/photography_3.jpg',
+    title: "European Snapshots 01",
+    description: "Landscape photography, 2019",
+    category: "photography",
+    imagePath: "images/photography_3.jpg",
   },
   {
     id: 8,
-    title: 'Urban Series 02',
-    description: 'Urban photography, 2019',
-    category: 'photography',
-    imagePath: 'images/photography_4.jpg',
+    title: "Urban Series 02",
+    description: "Urban photography, 2019",
+    category: "photography",
+    imagePath: "images/photography_4.jpg",
   },
   {
     id: 9,
-    title: 'Nordic Landscapes 01',
-    description: 'Landscape photography, 2018',
-    category: 'photography',
-    imagePath: 'images/photography_5.jpg',
+    title: "Nordic Landscapes 01",
+    description: "Landscape photography, 2018",
+    category: "photography",
+    imagePath: "images/photography_5.jpg",
   },
   {
     id: 10,
-    title: 'Nordic Landscapes 02',
-    description: 'Landscape photography, 2018',
-    category: 'photography',
-    imagePath: 'images/photography_iceland_1.jpg',
+    title: "Nordic Landscapes 02",
+    description: "Landscape photography, 2018",
+    category: "photography",
+    imagePath: "images/photography_iceland_1.jpg",
   },
   {
     id: 11,
-    title: 'Nordic Landscapes 03',
-    description: 'Landscape photography, 2018',
-    category: 'photography',
-    imagePath: 'images/photography_6.jpg',
+    title: "Nordic Landscapes 03",
+    description: "Landscape photography, 2018",
+    category: "photography",
+    imagePath: "images/photography_6.jpg",
   },
   {
     id: 12,
-    title: 'Nordic Landscapes 04',
-    description: 'Landscape photography, 2018',
-    category: 'photography',
-    imagePath: 'images/photography_iceland_2.jpg',
+    title: "Nordic Landscapes 04",
+    description: "Landscape photography, 2018",
+    category: "photography",
+    imagePath: "images/photography_iceland_2.jpg",
   },
   {
     id: 13,
-    title: 'Alpine Sceneries 02',
-    description: 'Landscape photography, 2018',
-    category: 'photography',
-    imagePath: 'images/photography_7.jpg',
+    title: "Alpine Sceneries 02",
+    description: "Landscape photography, 2018",
+    category: "photography",
+    imagePath: "images/photography_7.jpg",
   },
   {
     id: 14,
-    title: 'Alpine Sceneries 03',
-    description: 'Landscape photography, 2018',
-    category: 'photography',
-    imagePath: 'images/photography_8.jpg',
+    title: "Alpine Sceneries 03",
+    description: "Landscape photography, 2018",
+    category: "photography",
+    imagePath: "images/photography_8.jpg",
   },
   {
     id: 15,
-    title: 'European Snapshots 02',
-    description: 'Urban photography, 2019',
-    category: 'photography',
-    imagePath: 'images/photography_9.jpg',
+    title: "European Snapshots 02",
+    description: "Urban photography, 2019",
+    category: "photography",
+    imagePath: "images/photography_9.jpg",
   },
   {
     id: 16,
-    title: 'Live Music Series 01',
-    description: 'Concert photography, 2023',
-    category: 'photography',
-    imagePath: 'images/photography_concert_1.jpg',
+    title: "Live Music Series 01",
+    description: "Concert photography, 2023",
+    category: "photography",
+    imagePath: "images/photography_concert_1.jpg",
   },
   {
     id: 17,
-    title: 'Live Music Series 02',
-    description: 'Concert photography, 2023',
-    category: 'photography',
-    imagePath: 'images/photography_concert_2.jpg',
+    title: "Live Music Series 02",
+    description: "Concert photography, 2023",
+    category: "photography",
+    imagePath: "images/photography_concert_2.jpg",
   },
   {
     id: 18,
-    title: 'Live Music Series 03',
-    description: 'Concert photography, 2023',
-    category: 'photography',
-    imagePath: 'images/photography_concert_3.jpg',
+    title: "Live Music Series 03",
+    description: "Concert photography, 2023",
+    category: "photography",
+    imagePath: "images/photography_concert_3.jpg",
   },
   {
     id: 19,
-    title: 'Live Music Series 04',
-    description: 'Concert photography, 2023',
-    category: 'photography',
-    imagePath: 'images/photography_concert_4.jpg',
+    title: "Live Music Series 04",
+    description: "Concert photography, 2023",
+    category: "photography",
+    imagePath: "images/photography_concert_4.jpg",
   },
   {
     id: 20,
-    title: 'Live Music Series 05',
-    description: 'Concert photography, 2023',
-    category: 'photography',
-    imagePath: 'images/photography_concert_5.jpg',
+    title: "Live Music Series 05",
+    description: "Concert photography, 2023",
+    category: "photography",
+    imagePath: "images/photography_concert_5.jpg",
   },
   {
     id: 21,
-    title: 'Live Music Series 06',
-    description: 'Concert photography, 2023',
-    category: 'photography',
-    imagePath: 'images/photography_concert_6.jpg',
+    title: "Live Music Series 06",
+    description: "Concert photography, 2023",
+    category: "photography",
+    imagePath: "images/photography_concert_6.jpg",
   },
   {
     id: 22,
-    title: 'Portrait Series 01',
-    description: 'Portrait photography, 2024',
-    category: 'photography',
-    imagePath: 'images/photography_portrait_1.jpg',
+    title: "Portrait Series 01",
+    description: "Portrait photography, 2024",
+    category: "photography",
+    imagePath: "images/photography_portrait_1.jpg",
   },
   {
     id: 23,
-    title: 'Portrait Series 02',
-    description: 'Portrait photography, 2024',
-    category: 'photography',
-    imagePath: 'images/photography_portrait_2.jpg',
+    title: "Portrait Series 02",
+    description: "Portrait photography, 2024",
+    category: "photography",
+    imagePath: "images/photography_portrait_2.jpg",
   },
   {
     id: 24,
-    title: 'Portrait Series 03',
-    description: 'Portrait photography, 2024',
-    category: 'photography',
-    imagePath: 'images/photography_portrait_3.jpg',
+    title: "Portrait Series 03",
+    description: "Portrait photography, 2024",
+    category: "photography",
+    imagePath: "images/photography_portrait_3.jpg",
   },
   {
     id: 25,
-    title: 'Portrait Series 04',
-    description: 'Portrait photography, 2024',
-    category: 'photography',
-    imagePath: 'images/photography_portrait_4.jpg',
+    title: "Portrait Series 04",
+    description: "Portrait photography, 2024",
+    category: "photography",
+    imagePath: "images/photography_portrait_4.jpg",
   },
   {
     id: 26,
-    title: 'Portrait Series 05',
-    description: 'Portrait photography, 2024',
-    category: 'photography',
-    imagePath: 'images/photography_portrait_5.jpg',
+    title: "Portrait Series 05",
+    description: "Portrait photography, 2024",
+    category: "photography",
+    imagePath: "images/photography_portrait_5.jpg",
   },
   {
     id: 27,
-    title: 'The Quiet End of Eros',
-    description: 'Oil on canvas, 2017',
-    category: 'painting',
-    imagePath: 'images/painting_1.jpg',
+    title: "The Quiet End of Eros",
+    description: "Oil on canvas, 2017",
+    category: "painting",
+    imagePath: "images/painting_1.jpg",
   },
   {
     id: 28,
-    title: 'Outgoing',
-    description: 'Oil on canvas, 2015',
-    category: 'painting',
-    imagePath: 'images/painting_2.jpg',
+    title: "Outgoing",
+    description: "Oil on canvas, 2015",
+    category: "painting",
+    imagePath: "images/painting_2.jpg",
   },
   {
     id: 29,
-    title: 'If Tears Had a Voice',
-    description: 'Oil on canvas, 2019',
-    category: 'painting',
-    imagePath: 'images/painting_3.jpg',
+    title: "If Tears Had a Voice",
+    description: "Oil on canvas, 2019",
+    category: "painting",
+    imagePath: "images/painting_3.jpg",
   },
   {
     id: 30,
-    title: 'In the Wake of the Warmth',
-    description: 'Oil on canvas, 2021',
-    category: 'painting',
-    imagePath: 'images/painting_4.jpg',
+    title: "In the Wake of the Warmth",
+    description: "Oil on canvas, 2021",
+    category: "painting",
+    imagePath: "images/painting_4.jpg",
   },
   {
     id: 31,
-    title: 'Portrait Study 01',
-    description: 'Digital painting, 2023',
-    category: 'painting',
-    imagePath: 'images/painting_digital_1.jpg',
+    title: "Portrait Study 01",
+    description: "Digital painting, 2023",
+    category: "painting",
+    imagePath: "images/painting_digital_1.jpg",
   },
   {
     id: 32,
-    title: 'Portrait Study 02',
-    description: 'Digital painting, 2023',
-    category: 'painting',
-    imagePath: 'images/painting_digital_2.jpg',
+    title: "Portrait Study 02",
+    description: "Digital painting, 2023",
+    category: "painting",
+    imagePath: "images/painting_digital_2.jpg",
   },
   {
     id: 33,
-    title: 'Portrait Study 03',
-    description: 'Digital painting, 2023',
-    category: 'painting',
-    imagePath: 'images/painting_digital_3.jpg',
+    title: "Portrait Study 03",
+    description: "Digital painting, 2023",
+    category: "painting",
+    imagePath: "images/painting_digital_3.jpg",
   },
   {
     id: 34,
-    title: 'Lines in Motion 01',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_5.jpg',
+    title: "Lines in Motion 01",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_5.jpg",
   },
   {
     id: 35,
-    title: 'Lines in Motion 02',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_6.jpg',
+    title: "Lines in Motion 02",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_6.jpg",
   },
   {
     id: 36,
-    title: 'Echoes of Form 01',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_7.jpg',
+    title: "Echoes of Form 01",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_7.jpg",
   },
   {
     id: 37,
-    title: 'Echoes of Form 02',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_8.jpg',
+    title: "Echoes of Form 02",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_8.jpg",
   },
   {
     id: 38,
-    title: 'Retro Cityscape 01',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_cityscape_1.jpg',
+    title: "Retro Cityscape 01",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_cityscape_1.jpg",
   },
   {
     id: 39,
-    title: 'Retro Cityscape 02',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_cityscape_2.jpg',
+    title: "Retro Cityscape 02",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_cityscape_2.jpg",
   },
   {
     id: 40,
-    title: 'Chaotic Contour 01',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_contour_1.jpg',
+    title: "Chaotic Contour 01",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_contour_1.jpg",
   },
   {
     id: 41,
-    title: 'Chaotic Contour 02',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_contour_2.jpg',
+    title: "Chaotic Contour 02",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_contour_2.jpg",
   },
   {
     id: 42,
-    title: 'Echoes of Form 03',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_9.jpg',
+    title: "Echoes of Form 03",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_9.jpg",
   },
   {
     id: 43,
-    title: 'Retro Pop 01',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_pop_1.jpg',
+    title: "Retro Pop 01",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_pop_1.jpg",
   },
   {
     id: 44,
-    title: 'Retro Pop 02',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_pop_2.jpg',
+    title: "Retro Pop 02",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_pop_2.jpg",
   },
   {
     id: 45,
-    title: 'Echoes of Form 04',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_form_1.jpg',
+    title: "Echoes of Form 04",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_form_1.jpg",
   },
   {
     id: 46,
-    title: 'Echoes of Form 05',
-    description: 'GPT-4o, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_form_2.jpg',
+    title: "Echoes of Form 05",
+    description: "GPT-4o, 2025",
+    category: "generative",
+    imagePath: "images/generative_form_2.jpg",
   },
   {
     id: 47,
-    title: 'Fleeting Light 01',
-    description: 'Stable Diffusion XL, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_polaroid_1.jpg',
+    title: "Fleeting Light 01",
+    description: "Stable Diffusion XL, 2025",
+    category: "generative",
+    imagePath: "images/generative_polaroid_1.jpg",
   },
   {
     id: 48,
-    title: 'Fleeting Light 02',
-    description: 'Stable Diffusion XL, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_polaroid_2.jpg',
+    title: "Fleeting Light 02",
+    description: "Stable Diffusion XL, 2025",
+    category: "generative",
+    imagePath: "images/generative_polaroid_2.jpg",
   },
   {
     id: 49,
-    title: 'Fleeting Light 03',
-    description: 'Stable Diffusion XL, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_polaroid_3.jpg',
+    title: "Fleeting Light 03",
+    description: "Stable Diffusion XL, 2025",
+    category: "generative",
+    imagePath: "images/generative_polaroid_3.jpg",
   },
   {
     id: 50,
-    title: 'Fleeting Light 04',
-    description: 'Stable Diffusion XL, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_polaroid_4.jpg',
+    title: "Fleeting Light 04",
+    description: "Stable Diffusion XL, 2025",
+    category: "generative",
+    imagePath: "images/generative_polaroid_4.jpg",
   },
   {
     id: 51,
-    title: 'Fleeting Light 05',
-    description: 'Stable Diffusion XL, 2025',
-    category: 'generative',
-    imagePath: 'images/generative_polaroid_5.jpg',
+    title: "Fleeting Light 05",
+    description: "Stable Diffusion XL, 2025",
+    category: "generative",
+    imagePath: "images/generative_polaroid_5.jpg",
   },
 ];
 
@@ -384,18 +384,20 @@ function shuffleArray(array) {
 const shuffledArtworks = shuffleArray(artworks);
 
 // Category filtering
-let currentFilter = 'all';
+let currentFilter = "all";
 let filteredArtworks = [...shuffledArtworks];
 
 // Filter artworks by category
 function filterArtworks(category) {
-  if (category === 'all') {
+  if (category === "all") {
     filteredArtworks = [...shuffledArtworks];
   } else {
-    filteredArtworks = shuffledArtworks.filter(artwork => artwork.category === category);
+    filteredArtworks = shuffledArtworks.filter(
+      (artwork) => artwork.category === category,
+    );
   }
   currentFilter = category;
-  
+
   // Clear existing items and rebuild
   visibleItems.forEach((itemId) => {
     const item = document.getElementById(itemId);
@@ -406,9 +408,14 @@ function filterArtworks(category) {
   visibleItems.clear();
   updateVisibleItems();
 }
+// Check if device is mobile
+function isMobile() {
+  return window.innerWidth <= 768;
+}
+
 // Settings object
 const settings = {
-  // Item sizes
+  // Item sizes - will be adjusted for mobile
   baseWidth: 400,
   smallHeight: 330,
   largeHeight: 500,
@@ -429,6 +436,25 @@ const settings = {
   // Animation durations
   zoomDuration: 0.6, // Reduced from 1.0 to 0.6 for faster zoom
 };
+
+// Adjust settings for mobile
+function changeSettingsForDevice() {
+  if (isMobile()) {
+    settings.baseWidth = 240;
+    settings.smallHeight = 200;
+    settings.largeHeight = 300;
+    settings.itemGap = 40;
+    settings.vignetteSize = 120;
+    settings.vignetteStrength = 0.4;
+  } else {
+    settings.baseWidth = 400;
+    settings.smallHeight = 330;
+    settings.largeHeight = 500;
+    settings.itemGap = 65;
+    settings.vignetteSize = 200;
+    settings.vignetteStrength = 0.7;
+  }
+}
 // Define item sizes based on settings
 let itemSizes = [
   {
@@ -569,6 +595,7 @@ function updateSettings() {
   cellWidth = settings.baseWidth + settings.itemGap;
   cellHeight =
     Math.max(settings.smallHeight, settings.largeHeight) + settings.itemGap;
+
   // Clear existing items and rebuild
   visibleItems.forEach((itemId) => {
     const item = document.getElementById(itemId);
@@ -577,12 +604,15 @@ function updateSettings() {
     }
   });
   visibleItems.clear();
-  updateVisibleItems();
-  // Update visual styles
+
+  // Update visual styles with new settings
   updateBorderRadius();
   updateVignetteSize();
   updateHoverScale();
   updatePageVignette();
+
+  // Force rebuild of visible items with new dimensions
+  updateVisibleItems();
 }
 
 function setAndAnimateTitle(title) {
@@ -703,7 +733,7 @@ function updateVisibleItems() {
       if (itemCount === 0) return; // Skip if no artworks match filter
       const itemNum = Math.abs((row * columns + col) % itemCount);
       const artwork = filteredArtworks[itemNum];
-      
+
       // Create image container for overflow control
       const imageContainer = document.createElement("div");
       imageContainer.className = "item-image-container";
@@ -713,7 +743,7 @@ function updateVisibleItems() {
       img.alt = artwork.title;
       imageContainer.appendChild(img);
       item.appendChild(imageContainer);
-      
+
       // Add caption inside the image
       const captionElement = document.createElement("div");
       captionElement.className = "item-caption";
@@ -721,7 +751,7 @@ function updateVisibleItems() {
       nameElement.className = "item-name";
       nameElement.textContent = artwork.title;
       captionElement.appendChild(nameElement);
-      
+
       const numberElement = document.createElement("div");
       numberElement.className = "item-number";
       numberElement.textContent = artwork.description;
@@ -860,17 +890,17 @@ function expandItem(item, itemIndex) {
   });
   const viewportWidth = window.innerWidth;
   const viewportHeight = window.innerHeight;
-  
+
   // Get the actual image to calculate its natural aspect ratio
   const actualImg = item.querySelector("img");
   let targetWidth, targetHeight;
-  
+
   // Calculate size based on image's natural aspect ratio
   if (actualImg.complete && actualImg.naturalWidth > 0) {
     const imageAspectRatio = actualImg.naturalHeight / actualImg.naturalWidth;
     const maxWidth = viewportWidth * settings.expandedScale;
     const maxHeight = viewportHeight * settings.expandedScale;
-    
+
     // Fit image within viewport while maintaining aspect ratio
     if (maxWidth * imageAspectRatio <= maxHeight) {
       targetWidth = maxWidth;
@@ -1115,20 +1145,33 @@ window.addEventListener("touchmove", (e) => {
 window.addEventListener("touchend", () => {
   isDragging = false;
 });
+
+// Scroll event listeners
+window.addEventListener(
+  "wheel",
+  (e) => {
+    if (!canDrag) return; // Don't scroll when in expanded mode
+    e.preventDefault();
+    targetX -= e.deltaX;
+    targetY -= e.deltaY;
+  },
+  { passive: false },
+);
 window.addEventListener("resize", () => {
   if (isExpanded && expandedItem) {
     const viewportWidth = window.innerWidth;
     const viewportHeight = window.innerHeight;
-    
+
     // Get the expanded image to use its natural aspect ratio
     const expandedImg = expandedItem.querySelector("img");
     let targetWidth, targetHeight;
-    
+
     if (expandedImg && expandedImg.complete && expandedImg.naturalWidth > 0) {
-      const imageAspectRatio = expandedImg.naturalHeight / expandedImg.naturalWidth;
+      const imageAspectRatio =
+        expandedImg.naturalHeight / expandedImg.naturalWidth;
       const maxWidth = viewportWidth * settings.expandedScale;
       const maxHeight = viewportHeight * settings.expandedScale;
-      
+
       // Fit image within viewport while maintaining original aspect ratio
       if (maxWidth * imageAspectRatio <= maxHeight) {
         targetWidth = maxWidth;
@@ -1145,7 +1188,7 @@ window.addEventListener("resize", () => {
       targetWidth = viewportWidth * settings.expandedScale;
       targetHeight = targetWidth * aspectRatio;
     }
-    
+
     gsap.to(expandedItem, {
       width: targetWidth,
       height: targetHeight,
@@ -1153,7 +1196,18 @@ window.addEventListener("resize", () => {
       ease: "power2.out",
     });
   } else {
-    updateVisibleItems();
+    // Check if we need to update settings for device change
+    const currentMobile = isMobile();
+    const settingsNeedUpdate =
+      (currentMobile && settings.baseWidth === 400) ||
+      (!currentMobile && settings.baseWidth === 240);
+
+    if (settingsNeedUpdate) {
+      changeSettingsForDevice();
+      updateSettings();
+    } else {
+      updateVisibleItems();
+    }
   }
 });
 // Add this right before the // Initialize comment
@@ -1165,18 +1219,18 @@ function initializeStyles() {
 }
 // Category menu event listeners
 function initializeCategoryMenu() {
-  const categoryMenu = document.getElementById('category-menu');
-  const categoryLinks = categoryMenu.querySelectorAll('a');
-  
-  categoryLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
+  const categoryMenu = document.getElementById("category-menu");
+  const categoryLinks = categoryMenu.querySelectorAll("a");
+
+  categoryLinks.forEach((link) => {
+    link.addEventListener("click", (e) => {
       e.preventDefault();
       const category = link.dataset.category;
-      
+
       // Update active state
-      categoryLinks.forEach(l => l.classList.remove('active'));
-      link.classList.add('active');
-      
+      categoryLinks.forEach((l) => l.classList.remove("active"));
+      link.classList.add("active");
+
       // Filter artworks
       filterArtworks(category);
     });
@@ -1184,8 +1238,10 @@ function initializeCategoryMenu() {
 }
 
 // Initialize
+changeSettingsForDevice(); // Set mobile/desktop settings
 initializeStyles();
 initializeCategoryMenu();
+updateSettings(); // Rebuild grid with correct dimensions
 updateVisibleItems();
 animate();
 // Tweakpane removed - gallery now uses fixed settings

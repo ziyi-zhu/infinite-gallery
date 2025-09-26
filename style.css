@@ -594,3 +594,36 @@ h3 {
 .caption-clone .item-number {
   overflow: hidden;
 }
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  /* Hide desktop-specific elements on mobile */
+  .links-section {
+    display: none;
+  }
+
+  .location-section {
+    display: none;
+  }
+
+  .contact-section {
+    display: none;
+  }
+
+  /* Expand remaining sections to use more space */
+  .values-section {
+    grid-column: 5 / span 4; /* Expand from 2 columns to 4 columns */
+  }
+
+  .social-section {
+    grid-column: 9 / span 4; /* Expand from 2 columns to 4 columns */
+  }
+
+  .coordinates-section {
+    grid-column: 1 / span 6; /* Expand from 3 columns to 6 columns */
+  }
+
+  .info-section {
+    grid-column: 7 / span 6; /* Expand from 4 columns to 6 columns */
+  }
+}
