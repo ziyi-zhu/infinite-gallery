@@ -311,39 +311,42 @@ h3 {
   position: relative;
 }
 
-.logo-circles {
+.logo-letters {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.circle {
+.letter {
   position: absolute;
-  border-radius: 50%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.1rem;
+  color: var(--color-text);
   transition: transform var(--transition-medium);
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 1.4rem;
   height: 1.4rem;
-  background-color: var(--color-text);
-  top: 50%;
 }
 
-.circle-1 {
+.letter-1 {
   left: 0;
   transform: translate(0, -50%);
 }
 
-.circle-2 {
+.letter-2 {
   left: 0.8rem;
   transform: translate(0, -50%);
-  mix-blend-mode: exclusion;
 }
 
-.logo-container:hover .circle-1 {
-  transform: translate(-0.5rem, -50%);
+.logo-container:hover .letter-1 {
+  transform: translate(-0.35rem, -50%);
 }
 
-.logo-container:hover .circle-2 {
-  transform: translate(0.5rem, -50%);
+.logo-container:hover .letter-2 {
+  transform: translate(0.35rem, -50%);
 }
 
 .container {
