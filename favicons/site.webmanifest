@@ -1,7 +1,6 @@
 {
-  "name": "Portfolio - Ziyi Zhu",
-  "short_name": "Ziyi Zhu",
-  "description": "A minimalist portfolio showcasing the creative works of Ziyi Zhu, including photography, design, and art projects.",
+  "name": "ZiyiZhu",
+  "short_name": "ZiyiZhu",
   "icons": [
     {
       "src": "/favicons/web-app-manifest-192x192.png",
@@ -16,8 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#111111",
-  "background_color": "#111111",
-  "display": "standalone",
-  "start_url": "/"
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
 }
